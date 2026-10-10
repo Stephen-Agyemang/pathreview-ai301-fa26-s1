@@ -23,7 +23,7 @@ class TestReadmeScorer:
         ## Installation
         Ensure your local workstation has Python installed alongside virtual environment tooling. Execute the commands below to set up your isolated development environment, upgrade package installers, and fetch all required external dependencies safely without conflicting with system packages.
         ```bash
-        git clone [https://github.com/example/package.git](https://github.com/example/package.git)
+        git clone https://github.com/example/package.git
         cd package
         python3 -m venv .venv
         source .venv/bin/activate
@@ -50,7 +50,7 @@ class TestReadmeScorer:
         - Distributed event routing backed by persistent message queues with automatic dead-letter reprocessing
         - High-concurrency worker pools with adaptive rate limiting and circuit breaking to prevent upstream service degradation
         - Comprehensive observability metrics including Prometheus counters, latency histograms, and structured distributed tracing
-        - Pluggable storage adapters supporting object stores, relational relational engines, and partitioned cache layers
+        - Pluggable storage adapters supporting object stores, relational engines, and partitioned cache layers
         - Strict security compliance featuring encrypted credentials management and role-based operational permissions
 
         ## Architecture
